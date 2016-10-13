@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    
     <plugins>
       <!-- <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -30,14 +31,14 @@
 			</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.10</version>
-		</dependency>
-		<!-- <dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
+		</dependency> -->
+		<dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
 			<version>4.12</version> 
-			</dependency> -->
+			</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
